@@ -36,3 +36,30 @@ button {
     height: 30px;
   }
 }
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button.operator {
+  background-color: #ffd700; /* Yellow */
+}
+
+button.clear {
+  background-color: #ff0000; /* Red */
+  color: #fff;
+}
+
+button.number {
+  background-color: #32cd32; /* Lime Green */
+}
+
+button.delete {
+  background-color: #ff0000; /* Red */
+  color: #fff;
+}
+
