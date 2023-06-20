@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens (e.g., mobile devices) */
+  .calculator {
+    max-width: 250px;
+  }
+
+  button {
+    width: 50px;
+    height: 30px;
+  }
+}
